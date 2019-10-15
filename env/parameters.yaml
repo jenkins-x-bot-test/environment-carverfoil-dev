@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:carverfoil/adminUser:password
+  username: admin
+dashboardAuthID: vault:carverfoil:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:carverfoil:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:carverfoil/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:carverfoil/prow:hmacToken
